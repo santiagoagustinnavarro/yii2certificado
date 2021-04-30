@@ -1,0 +1,8 @@
+
+ALTER TABLE graduacion
+  ADD derecho_esferico varchar(10) CHARACTER SET utf8 DEFAULT NULL,
+  ADD derecho_cilindrico varchar(10) CHARACTER SET utf8 DEFAULT NULL,
+  ADD derecho_grado varchar(10) CHARACTER SET utf8 DEFAULT NULL,
+  ADD izquierdo_esferico varchar(10) CHARACTER SET utf8 DEFAULT NULL,
+  ADD izquierdo_cilindrico varchar(10) CHARACTER SET utf8 DEFAULT NULL,
+  ADD izquierdo_grado varchar(10) CHARACTER SET utf8 DEFAULT NULL; 
