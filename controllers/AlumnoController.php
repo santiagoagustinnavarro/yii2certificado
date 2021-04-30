@@ -33,10 +33,10 @@ class AlumnoController extends Controller
                 ],
             ],'access' => [
               'class' => \yii\filters\AccessControl::className(),
-              'only' => ['index','create','update','view'],
+              'only' => ['index','create','update','view','importar'],
               'rules' => [
                   // allow authenticated users
-                  [
+                  ['actions' => ['index','create','update','view','importar'],
                       'allow' => true,
                       'roles' => ['@'],
                   ],
